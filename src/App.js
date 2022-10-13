@@ -6,7 +6,7 @@ import Model from "./Model";
 export default function App() {
   return (
     <Canvas
-      camera={{ position: [2, 0, 12.25], fov: 15 }}
+      camera={{ position: [5, 5, 10], fov: 10 }}
       style={{
         backgroundColor: '#111a21',
         width: '100vw',
@@ -17,7 +17,9 @@ export default function App() {
       <ambientLight intensity={0.1} />
       <directionalLight intensity={0.4} />
       <Suspense fallback={null}>
-        <Model position={[0.025, -0.9, 0]} />
+        <group position={[0, -1, 0]}>
+          <Model />
+        </group>
       </Suspense>
       <OrbitControls />
     </Canvas>
