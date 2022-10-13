@@ -1,7 +1,7 @@
 {
   "name": "3dmodel",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://bramov.github.io/3d_self/build/",
   "dependencies": {
     "@react-three/drei": "^9.34.3",
     "@react-three/fiber": "^8.8.10",
